@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-hant">
+<head>
+    <meta charset="utf-8">
+    <link href="hwindex.css" rel="stylesheet">
+    
+  <script src="https://www.gstatic.com/firebasejs/3.7.3/firebase.js"></script>
+  <script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDSG-LaNBwJwjXZu37Qpy6QxShqHysnbRY",
+    authDomain: "nccu-demo-d3c1d.firebaseapp.com",
+    databaseURL: "https://nccu-demo-d3c1d.firebaseio.com",
+    storageBucket: "nccu-demo-d3c1d.appspot.com",
+    messagingSenderId: "844499160759"
+  };
+  firebase.initializeApp(config);
+  var database = firebase.database();
+  </script>  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="hwindex.js"></script>
+
+    <title>CCL.news</title>
+</head>
+<body>
+  <h1 class="larger white div2 center">CCL.news</h1>
+  <h2 class="center brown">【社群新聞】公民科技提案踴躍，94 件投稿爭取g0v 獎助金</h2>
+    <p class="div4 small grey">報導日期：Feb 4 作者：Cheng Ting Yu
+    <p class="div3">內文字體大小</p>
+
+    <p class="div3"><button type="button" onclick="Function()">large</button>
+       <button type="button" onclick="Function2()">medium</button>
+       <button type="button" onclick="Function3()">small</button></p>
+    <p class="center"><img src="https://firebasestorage.googleapis.com/v0/b/nccu-demo-d3c1d.appspot.com/o/1*iWvlykYR8i0Ep4qBJjz73w.png?alt=media&token=4a6a2d0c-b716-4195-ae5f-7009f8d937c1" alt="News" style="width:400px;height:300px;"></p>
+    <p id="myDIV" onmouseover="myFunction()" onmouseout="mouse()" class="div3">由 g0v 台灣零時政府舉辦的「公民科技創新獎助金」自 2017 年 1 月 1 日開始徵件，1 月 31 日截止前共收到 94 件提案，
+        各界投稿十分踴躍。現正進入「公開評論」階段，在此廣邀民眾提供建議，幫助所有提案更加完善。本期徵稿主題共有「社會參與」、
+        「開放政府」、「開放資料」、「新媒體」、「公共政策」到「社群基礎建設」等六大領域，以及焦點主題「惜食願景」。
+        每位提案者都運用創意與科技的結合，試圖解決特定的社會問題，期望能降低公民參與公共議題的門檻，以及提升社會資源的運用。
+        本文最後有全部提案列表介紹。</p>
+  <h3 id="h1" class="div brown">愛惜食物，用 App、雲端系統讓剩食找到第二春</h3>
+    <p id="myDIV2" onmouseover="myFunction2()" onmouseout="mouse2()" class="div3">消費者囤積過多的食物、餐廳銷售不出的即期食品等剩食，除了廚餘桶之外，還有其他管道可利用這些資源嗎？在許多國家提倡愛惜
+        剩食的時刻，台灣尚未出現以科技媒合剩餘食物資源的案例，此次響應的提案可望成為開創台灣剩食運用的首次嘗試。</p>
+    <p id="myDIV3" onmouseover="myFunction3()" onmouseout="mouse3()" class="div3">以媒合供應與需求端為出發點，諸如「See Food — 剩食計畫」以 App 媒合產生剩食的餐廳業者與需要食物的弱勢家庭，並透過遊
+        戲機制鼓勵業者捐贈與志工投入；「五村食物雲」透過資料平台，將供貨端的即期食品媒合給小農市集、綠色友善餐廳與 NGO，讓剩食再次利用不浪費；
+        「雲端剩食行動登錄暨查詢系統」與「LEFTrader -剩食交易」都導入低價購買剩食的概念，後者甚至還有揪團購食的功能，希望從源頭降低食物剩餘
+        的機率；「限時麵包，剩食美好」則針對糕點剩食做媒合。在前述業者與個人或單位的配對之外，另有以個人媒合為主的「換食吧！ExchangeFood Bar」
+        ，以食材交換解決過度購買的消費習慣所帶來的剩食問題。</p>
+    <p id="myDIV4" onmouseover="myFunction4()" onmouseout="mouse4()" class="div3">「社區冰箱」與「HoBinU — 冰箱分享惜食」皆以冰箱位為剩食存放點，透過 App 整合剩食資訊，前者主要以社區為交流範圍，讓居民甚
+        至是簽約的 NGO、餐廳業者能運用剩食；後者則著重個人間的交換與共享。</p>
+    <p id="myDIV5" onmouseover="myFunction5()" onmouseout="mouse5()" class="div3">另有一類提案是以剩餘食材的運用為基礎，如「創意瘋料理 — 醜食大變身」與「剩食揪好呷」皆著眼於剩餘食材的烹調與運用，希望透過剩食料理翻轉大家
+        對剩食難利用的印象。</p>
+  <h3 class="div brown">善用公民科技，改善社會參與</h3>
+    <p id="myDIV6" onmouseover="myFunction6()" onmouseout="mouse6()" class="div3">科技可望成為幫助公民參與解決各式社會問題的新利器，本期提案的涵蓋範圍十分廣泛，從農業、長期照護、就業、教育到生活的各個面向都有。</p>
+    <p id="myDIV7" onmouseover="myFunction7()" onmouseout="mouse7()" class="div3">隨著科技進步，我們已經能以影音記錄各種會議與活動，卻似乎未有一套系統性的逐字稿紀錄系統，「影音的逐字稿整理系統」一案即矢志彌補這項缺憾，
+        希望提供民眾一套便於查詢的方式，讓大眾在討論事件時能了解脈絡。「DipSpace 文字工作者的聚落」同樣是改善交流方式的專案，提案人希望創造一個讓不同專業、不同意見的
+        人們能雙向溝通的內容管理專案。</p>
+    <p id="myDIV8" onmouseover="myFunction8()" onmouseout="mouse8()" class="div3">農業方面，「阿龜微氣候天眼通」打造結合物聯網技術的「農業微氣候應用平台」供小農使用，紀錄田間的微氣候，協助農人在無雄厚資金的情形下，以資訊技術節省人力成本、
+        提高生產效益。</p>
+    <p id="myDIV9" onmouseover="myFunction9()" onmouseout="mouse9()" class="div3">在人口老化的現代社會，長期照護的需求日漸增加，如何提供品質保障與挑選安心的服務便成為重要議題。「銀髮族 Hotels.com」仿照旅館比價訂房平台，列出
+        各家安養院的性價比、用戶評價等資訊，幫助使用者在充分資訊下挑選適合的安養院；「照服人員宅急便」預計連結專業長照人士與需求家庭，既滿足長照工作者的就業需求，也幫
+        助尋找長照服務的家庭覓得具備專業培訓的人員。</p>
+    <p id="myDIV10" onmouseover="myFunction10()" onmouseout="mouse10()" class="div3">求職方面，「工作資訊透明化求職平台」致力於解決台灣就業市場資訊不透明的問題，希望整合職缺、工時、加班文化、福利等資訊，讓求職者能在充分的資訊下做選擇；「實習透視
+        鏡」藉由集結實習經驗、匿名分享，解決實習資訊長期不透明的問題；「World Wide Work」讓台灣求職者比較國內外市場現況，希望藉此讓雇主與勞工了解國際供需市場，協助
+        人才與國際接軌。</p>
+  <h3 class="div brown">以科技打擊假資訊，打造公民參與的新媒體</h3>
+    <p id="myDIV11" onmouseover="myFunction11()" onmouseout="mouse11()" class="div3">看膩了假資訊下充滿情緒的口水戰？「RejectFalseNews — 圖戰假新聞」以幽默的貼圖緩和衝突，將焦點導向正確的資訊，並連結至理性討論的平台，希望促成多元的聲音進行有品質的對話；
+      「消滅假新聞」藉由編輯評閱與讀者反饋，蒐集有問題的新聞來源，提醒讀者留意。新聞之外，透過 LINE 散播的資訊品質也參差不齊，幸好有「真的假的 LINE bot」讓使用者透過轉傳訊息詢
+      問聊天機器人的方式，查證訊息真偽。</p>
+    <p id="myDIV12" onmouseover="myFunction12()" onmouseout="mouse12()" class="div3">人民除了被動接收媒體資訊，也能主動參與報導過程，督促媒體盡責的執行監督政府的第四權。「媒體信評資料庫」邀請所有人為媒體、記者與新聞評分，將據此所得的信用評分作為讀者閱讀的
+        參考依據。「奪回主播台」則讓人民參與報導選材、意見蒐集與資料檢驗，希望公民社會能導正媒體監督政府的力量；「別讓英文長鼻子，勞工政策我追蹤」提案更聚焦於蔡英文競選期間提出的
+        勞工政見進度，以報導與 NGOs 倡議呼籲民眾持續關注勞動議題，督促政府落實勞工政策。「HackStory 共筆時間軸」則以協作共同筆記的形式，開創對於事件表述的敘述新方法。</p>
+    <p id="myDIV13" onmouseover="myFunction13()" onmouseout="mouse13()" class="div3">當人們日漸倚賴社群網路的管道吸收資訊，就越容易陷入演算法過濾所產生的同溫層內，難以看到不同立場的輿論。「同溫層脫離」自媒體、臉書、意見領袖等處擷取資訊，
+        將多元聲音並列，有助於讓大眾了解光譜兩端之間不同看法。</p>
+  <h3 class="div brown">開放政府讓資訊不漏接，全民同關心</h3>
+    <p id="myDIV14" onmouseover="myFunction14()" onmouseout="mouse14()" class="div3">面對五花八門的政府服務，總是難以在龐雜的政府網站中及時找到需要的資訊？「政府資訊獵犬」與「政府之鷹 — Eag0v」會是你我的好幫手，兩專案皆依據用戶需求，
+        將政府公告與服務即時推播到民眾的 email、Line 與 Facebook，既便民又能將政府資訊的效益最大化。</p>
+    <p id="myDIV15" onmouseover="myFunction15()" onmouseout="mouse15()" class="div3">政府資料的開放還有促進民眾關心公共議題的作用。「政治人物行程探測雷達」將總統、行政院長、六督首長與立委的議事及媒體行程公開，讓民眾了解政治人物參與的事情有那些；「社區公佈欄/里
+        民直播頻道」以社區為單位，以 App 公告政策與社區消息之際，也能透過里民交流訊息而培養社區意識。</p>
+  <h3 class="div brown">公共政策大平台，給你滿滿的議題參與機會</h3>
+    <p id="myDIV16" onmouseover="myFunction16()" onmouseout="mouse16()" class="div3">民主社會中，人人都有參與公共政策的權利，但資訊的龐雜與晦澀讓民眾難以吸收，導致公民參與政治的成本提高。本期提案即針對開放議事與政策資訊、創造協商平台讓民眾能在充分的資訊下做判斷，進而在討
+        論中提出對政策的意見。</p>
+    <p id="myDIV17" onmouseover="myFunction17()" onmouseout="mouse17()" class="div3">「2018 議員投票指南」彙整各縣市議員的政治獻金、議案等資料，供選民於下屆選舉時參考；「App 國會Online 2更新計畫」想以 App 的簡便介面呈現立委每一會期的提案內容；
+        「國會調查兵團」則透過整理立委質詢影片，讓選民了解自己投票支持的立委在國會議事的表現；「議會資訊大！平！台！」則是專注於推動台南市議會的資訊透明化。</p>
+    <p id="myDIV18" onmouseover="myFunction18()" onmouseout="mouse18()" class="div3">公共政策資訊的彙整與專業詞彙的轉譯十分重要，「社會保險助理」便是為了幫助社會保險申請者搞懂繁複的流程而生，透過 App 提供易懂的資訊，讓申請者耗費最低的金錢與時
+        間成本，申請到最大助益的福利。</p>
+    <p id="myDIV19" onmouseover="myFunction19()" onmouseout="mouse19()" class="div3">多元觀點的匯聚有助於形成對公共議題的共識，不少提案即致力於此。「公共政策網路討論論壇」希望藉由參考資料、爭點釐清與各方主張討論等過程，
+        協助民眾深入了解、評論公共政策；「開心森林農場」則是設計給社區討論、決策公共事務的機制；「課綱商吧( Sandbox)」透過網站、Email、Facebook 等管道蒐
+        集民眾對課綱及十二年國教的想法，促進社會對教育政策做更多的思辨及反饋。</p>
+    <p id="myDIV20" onmouseover="myFunction20()" onmouseout="mouse20()" class="div3">在既有政策討論形式之外，「未來政治 — 銜接民主」在探索介於直接民主與代議民主間的另一條可行道路，讓人民自己授權認同的意見領袖為該議題的代理者，
+        取代由利益團體或政黨為人民決定政策走向的現況。</p>
+  <h3 class="div brown">從開放資料挖掘應用價值</h3>
+    <p id="myDIV21" onmouseover="myFunction21()" onmouseout="mouse21()" class="div3">資料若能開放供任何人自由使用，能產出各式各樣的應用價值。此次提案的關注範圍從環境、文化到民生與司法層面都有，十分豐富。</p>
+    <p id="myDIV22" onmouseover="myFunction22()" onmouseout="mouse22()" class="div3">PM2.5 造成的霾害讓台灣的空污問題浮上檯面，「透明足跡─讓污染無所遁形」、「紫豹在哪裡」皆致力於開放空汙數據，讓民眾能追蹤汙染源，帶動輿論壓力促成汙染改善。
+        「Civil Archive — 即時資訊檔案庫」希望紀錄環境中的各種數據，比如為每一刻的氣溫、雨量等事件留下永久網址，方便日後檢視。</p>
+    <p id="myDIV23" onmouseover="myFunction23()" onmouseout="mouse23()" class="div3">在地理資訊方面，「OSMitM (OpenStreetMap in-the Middle)」提案人體認到公部門與民間皆缺乏完善的「地址轉換經緯度」資料庫與服務，希望藉提案整合各街圖的資料集，
+        讓一般民眾也能使用；「模型驅動救災資源規劃混搭網頁服務」結合消防資料與地圖，規劃最佳救災路徑，提高醫護及消防派遣效率。</p>
+    <p id="myDIV24" onmouseover="myFunction24()" onmouseout="mouse24()" class="div3">文化方面，「遺落在世界的國家寶藏」希望開發出讓群眾協力數位化台灣史料的平台，讓深埋於美國的台灣珍貴史料能開放給全台灣人看到；「IDS 開放網路再造漢字」要在維基
+        媒體的雲端辦立開源組字的服務，補足缺漏的中文字；「可以不要再給我文字雲了嗎」則要開發文本分析的工具。</p>
+    <p id="myDIV25" onmouseover="myFunction25()" onmouseout="mouse25()" class="div3">另有一些提案與民眾生活息息相關，諸如「Job — 得失」分析自政府辦理的職訓課程結訓的學員，其後續的求職動向，據此分析課程與企業徵才間的供需平衡；「所得總額資料查詢網站 + 視覺化
+        」開放所得資料，轉化為視覺地圖；「電氣家計簿」將政府關於各家電用電資料整理開放，使家戶能一掃條碼便推估用電量，據此節約能源。民生之外，亦有推動司法進步的「司法陽光網－判決書
+         API 計畫」，其宗旨為開放判決書，幫助公民了解自己面對的司法系統。</p>
+  <h3 class="div brown">公民科技社群開發的基礎建設</h3>
+    <p id="myDIV26" onmouseover="myFunction26()" onmouseout="mouse26()" class="div3">經過四年多的發展，g0v 零時政府的專案數目與參與規模不斷擴大。此時，奠定社群基礎的建設就格外重要。好的協作工具能整合不同領域的參與者的貢獻，並幫助開放社群中的多元聲音交流。
+        相關專案有使用 markdown 語法協作筆記的平台 —「HackMD 」，此平台支援圖表、簡報與數學公式等功能，十分方便；以及開發供 iPhone 使用的「Hackfoldr-iOS」，讓手機用戶也能
+        輕鬆瀏覽與編輯資訊；「foda.io」則是想創建一個比現有工具介面更友善、編輯與分享更簡便的協作系統，供社群、政府單位等團體在街頭運動、會議等活動使用。</p>
+    <p id="myDIV27" onmouseover="myFunction27()" onmouseout="mouse27()" class="div3">g0v 的許多公民科技專案都須經過伺服器與資料庫架設等程序，「middle2 開放 PaaS 平台」針對這點，設計了讓公民科技開發者套用的基礎架構，節省日後專案開發的金錢與時間成本。
+        另一專案則注意到 g0v 社群內設計師供不應求的窘境，「初心設計師練習地」想建立一個設計標題產生器，讓初入 g0v 的設計師不會因不懂程式而卻步，產出的設計元件也能重複運用，
+        讓等不到設計師的專案主自行提升視覺品質。</p>
+  <h3 class="div brown">評論強力募集中</h3>
+    <p id="myDIV28" onmouseover="myFunction28()" onmouseout="mouse28()" class="div3">g0v 公民科技創新獎助金的評論階段開放至 2 月 10 日，提案者則可以修改到 2 月 13 日。歡迎所有人、公民團體到專案頁面提供想法與建議，幫助提案更上一層樓！</p>
+  <h2 class="big center brown">延伸閱讀</h2>
+    <p class="center"><a href="https://g0v.news"><img src="https://firebasestorage.googleapis.com/v0/b/nccu-demo-d3c1d.appspot.com/o/1*rpcluTRwvObo6FNjmjZ5Dw%402x.png?alt=media&token=e548f00e-a975-46e4-b947-b7b248bbeb22" alt="G0V News" style="width:325px;height:300px">
+    <a href="http://creativecommons.tw"><img src="https://firebasestorage.googleapis.com/v0/b/nccu-demo-d3c1d.appspot.com/o/logo_promote_promote.png?alt=media&token=2f028236-f0ed-4dcb-b216-e153cf929101" alt="創用CC" style="width:300px;height:300px"></a></p>
+  <h3 class="big center brown">參考資料來源</h3>
+    <p class="center"><a href="https://g0v.news/社群新聞-公民科技提案踴躍-94-件投稿爭取g0v-獎助金-cabf05e0bafb#.jdmyl5nkj">Cheng Ting Yu的作品</a></p>
+    <p class="center"><button type="button" onclick="scrollWin()">Back To Top</button></p>
+  <h3 class="center big brown">建立使用者帳號</h3><p class="center">
+    <input type="text" id="create_email"     placeholder="Email"/>
+    <input type="text" id="create_password"  placeholder="密碼"/>
+    <button id="create_user">建立</button></p>
+  
+  <h3 class="center big brown">登入使用者帳號</h3><p class="center">
+    <input type="text" id="login_email"     placeholder="Email"/>
+    <input type="text" id="login_password"  placeholder="密碼"/>
+    <button id="login_user">登入</button> </p>
+</body>
+</html>
