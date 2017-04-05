@@ -1,0 +1,298 @@
+function Function() {
+    document.getElementById("myDIV").style.fontSize = "xx-large";
+    document.getElementById("myDIV2").style.fontSize = "xx-large";
+    document.getElementById("myDIV3").style.fontSize = "xx-large";
+    document.getElementById("myDIV4").style.fontSize = "xx-large";
+    document.getElementById("myDIV5").style.fontSize = "xx-large";
+    document.getElementById("myDIV6").style.fontSize = "xx-large";
+    document.getElementById("myDIV7").style.fontSize = "xx-large";
+    document.getElementById("myDIV8").style.fontSize = "xx-large";
+    document.getElementById("myDIV9").style.fontSize = "xx-large";
+    document.getElementById("myDIV10").style.fontSize = "xx-large";
+    document.getElementById("myDIV11").style.fontSize = "xx-large";
+    document.getElementById("myDIV12").style.fontSize = "xx-large";
+    document.getElementById("myDIV13").style.fontSize = "xx-large";
+    document.getElementById("myDIV14").style.fontSize = "xx-large";
+    document.getElementById("myDIV15").style.fontSize = "xx-large";
+    document.getElementById("myDIV16").style.fontSize = "xx-large";
+    document.getElementById("myDIV17").style.fontSize = "xx-large";
+    document.getElementById("myDIV18").style.fontSize = "xx-large";
+    document.getElementById("myDIV19").style.fontSize = "xx-large";
+    document.getElementById("myDIV20").style.fontSize = "xx-large";
+    document.getElementById("myDIV21").style.fontSize = "xx-large";
+    document.getElementById("myDIV22").style.fontSize = "xx-large";
+    document.getElementById("myDIV23").style.fontSize = "xx-large";
+    document.getElementById("myDIV24").style.fontSize = "xx-large";
+    document.getElementById("myDIV25").style.fontSize = "xx-large";
+    document.getElementById("myDIV26").style.fontSize = "xx-large";
+    document.getElementById("myDIV27").style.fontSize = "xx-large";
+    document.getElementById("myDIV28").style.fontSize = "xx-large";
+}
+function Function2() {
+    document.getElementById("myDIV").style.fontSize = "19px";
+    document.getElementById("myDIV2").style.fontSize = "19px";
+    document.getElementById("myDIV3").style.fontSize = "19px";
+    document.getElementById("myDIV4").style.fontSize = "19px";
+    document.getElementById("myDIV5").style.fontSize = "19px";
+    document.getElementById("myDIV6").style.fontSize = "19px";
+    document.getElementById("myDIV7").style.fontSize = "19px";
+    document.getElementById("myDIV8").style.fontSize = "19px";
+    document.getElementById("myDIV9").style.fontSize = "19px";
+    document.getElementById("myDIV10").style.fontSize = "19px";
+    document.getElementById("myDIV11").style.fontSize = "19px";
+    document.getElementById("myDIV12").style.fontSize = "19px";
+    document.getElementById("myDIV13").style.fontSize = "19px";
+    document.getElementById("myDIV14").style.fontSize = "19px";
+    document.getElementById("myDIV15").style.fontSize = "19px";
+    document.getElementById("myDIV16").style.fontSize = "19px";
+    document.getElementById("myDIV17").style.fontSize = "19px";
+    document.getElementById("myDIV18").style.fontSize = "19px";
+    document.getElementById("myDIV19").style.fontSize = "19px";
+    document.getElementById("myDIV20").style.fontSize = "19px";
+    document.getElementById("myDIV21").style.fontSize = "19px";
+    document.getElementById("myDIV22").style.fontSize = "19px";
+    document.getElementById("myDIV23").style.fontSize = "19px";
+    document.getElementById("myDIV24").style.fontSize = "19px";
+    document.getElementById("myDIV25").style.fontSize = "19px";
+    document.getElementById("myDIV26").style.fontSize = "19px";
+    document.getElementById("myDIV27").style.fontSize = "19px";
+    document.getElementById("myDIV28").style.fontSize = "19px";
+}
+function Function3() {
+    document.getElementById("myDIV").style.fontSize = "medium";
+    document.getElementById("myDIV2").style.fontSize = "medium";
+    document.getElementById("myDIV3").style.fontSize = "medium";
+    document.getElementById("myDIV4").style.fontSize = "medium";
+    document.getElementById("myDIV5").style.fontSize = "medium";
+    document.getElementById("myDIV6").style.fontSize = "medium";
+    document.getElementById("myDIV7").style.fontSize = "medium";
+    document.getElementById("myDIV8").style.fontSize = "medium";
+    document.getElementById("myDIV9").style.fontSize = "medium";
+    document.getElementById("myDIV10").style.fontSize = "medium";
+    document.getElementById("myDIV11").style.fontSize = "medium";
+    document.getElementById("myDIV12").style.fontSize = "medium";
+    document.getElementById("myDIV13").style.fontSize = "medium";
+    document.getElementById("myDIV14").style.fontSize = "medium";
+    document.getElementById("myDIV15").style.fontSize = "medium";
+    document.getElementById("myDIV16").style.fontSize = "medium";
+    document.getElementById("myDIV17").style.fontSize = "medium";
+    document.getElementById("myDIV18").style.fontSize = "medium";
+    document.getElementById("myDIV19").style.fontSize = "medium";
+    document.getElementById("myDIV20").style.fontSize = "medium";
+    document.getElementById("myDIV21").style.fontSize = "medium";
+    document.getElementById("myDIV22").style.fontSize = "medium";
+    document.getElementById("myDIV23").style.fontSize = "medium";
+    document.getElementById("myDIV24").style.fontSize = "medium";
+    document.getElementById("myDIV25").style.fontSize = "medium";
+    document.getElementById("myDIV26").style.fontSize = "medium";
+    document.getElementById("myDIV27").style.fontSize = "medium";
+    document.getElementById("myDIV28").style.fontSize = "medium";
+}
+function scrollWin() {
+    window.scrollTo(0, 0);
+}
+function myFunction() {
+    document.getElementById("myDIV").style.backgroundColor = "white";
+}
+function mouse() {
+    document.getElementById("myDIV").style.backgroundColor = "wheat";
+}
+function myFunction2() {
+    document.getElementById("myDIV2").style.backgroundColor = "white";
+}
+function mouse2() {
+    document.getElementById("myDIV2").style.backgroundColor = "wheat";
+}
+function myFunction3() {
+    document.getElementById("myDIV3").style.backgroundColor = "white";
+}
+function mouse3() {
+    document.getElementById("myDIV3").style.backgroundColor = "wheat";
+}
+function myFunction4() {
+    document.getElementById("myDIV4").style.backgroundColor = "white";
+}
+function mouse4() {
+    document.getElementById("myDIV4").style.backgroundColor = "wheat";
+}
+function myFunction5() {
+    document.getElementById("myDIV5").style.backgroundColor = "white";
+}
+function mouse5() {
+    document.getElementById("myDIV5").style.backgroundColor = "wheat";
+}
+function myFunction6() {
+    document.getElementById("myDIV6").style.backgroundColor = "white";
+}
+function mouse6() {
+    document.getElementById("myDIV6").style.backgroundColor = "wheat";
+}
+function myFunction7() {
+    document.getElementById("myDIV7").style.backgroundColor = "white";
+}
+function mouse7() {
+    document.getElementById("myDIV7").style.backgroundColor = "wheat";
+}
+function myFunction8() {
+    document.getElementById("myDIV8").style.backgroundColor = "white";
+}
+function mouse8() {
+    document.getElementById("myDIV8").style.backgroundColor = "wheat";
+}
+function myFunction9() {
+    document.getElementById("myDIV9").style.backgroundColor = "white";
+}
+function mouse9() {
+    document.getElementById("myDIV9").style.backgroundColor = "wheat";
+}
+function myFunction10() {
+    document.getElementById("myDIV10").style.backgroundColor = "white";
+}
+function mouse10() {
+    document.getElementById("myDIV10").style.backgroundColor = "wheat";
+}
+function myFunction11() {
+    document.getElementById("myDIV11").style.backgroundColor = "white";
+}
+function mouse11() {
+    document.getElementById("myDIV11").style.backgroundColor = "wheat";
+}
+function myFunction12() {
+    document.getElementById("myDIV12").style.backgroundColor = "white";
+}
+function mouse12() {
+    document.getElementById("myDIV12").style.backgroundColor = "wheat";
+}
+function myFunction13() {
+    document.getElementById("myDIV13").style.backgroundColor = "white";
+}
+function mouse13() {
+    document.getElementById("myDIV13").style.backgroundColor = "wheat";
+}
+function myFunction14() {
+    document.getElementById("myDIV14").style.backgroundColor = "white";
+}
+function mouse14() {
+    document.getElementById("myDIV14").style.backgroundColor = "wheat";
+}
+function myFunction15() {
+    document.getElementById("myDIV15").style.backgroundColor = "white";
+}
+function mouse15() {
+    document.getElementById("myDIV15").style.backgroundColor = "wheat";
+}
+function myFunction16() {
+    document.getElementById("myDIV16").style.backgroundColor = "white";
+}
+function mouse16() {
+    document.getElementById("myDIV16").style.backgroundColor = "wheat";
+}
+function myFunction17() {
+    document.getElementById("myDIV17").style.backgroundColor = "white";
+}
+function mouse17() {
+    document.getElementById("myDIV17").style.backgroundColor = "wheat";
+}
+function myFunction18() {
+    document.getElementById("myDIV18").style.backgroundColor = "white";
+}
+function mouse18() {
+    document.getElementById("myDIV18").style.backgroundColor = "wheat";
+}
+function myFunction19() {
+    document.getElementById("myDIV19").style.backgroundColor = "white";
+}
+function mouse19() {
+    document.getElementById("myDIV19").style.backgroundColor = "wheat";
+}
+function myFunction20() {
+    document.getElementById("myDIV20").style.backgroundColor = "white";
+}
+function mouse20() {
+    document.getElementById("myDIV20").style.backgroundColor = "wheat";
+}
+function myFunction21() {
+    document.getElementById("myDIV21").style.backgroundColor = "white";
+}
+function mouse21() {
+    document.getElementById("myDIV21").style.backgroundColor = "wheat";
+}
+function myFunction22() {
+    document.getElementById("myDIV22").style.backgroundColor = "white";
+}
+function mouse22() {
+    document.getElementById("myDIV22").style.backgroundColor = "wheat";
+}
+function myFunction23() {
+    document.getElementById("myDIV23").style.backgroundColor = "white";
+}
+function mouse23() {
+    document.getElementById("myDIV23").style.backgroundColor = "wheat";
+}
+function myFunction24() {
+    document.getElementById("myDIV24").style.backgroundColor = "white";
+}
+function mouse24() {
+    document.getElementById("myDIV24").style.backgroundColor = "wheat";
+}
+function myFunction25() {
+    document.getElementById("myDIV25").style.backgroundColor = "white";
+}
+function mouse25() {
+    document.getElementById("myDIV25").style.backgroundColor = "wheat";
+}
+function myFunction26() {
+    document.getElementById("myDIV26").style.backgroundColor = "white";
+}
+function mouse26() {
+    document.getElementById("myDIV26").style.backgroundColor = "wheat";
+}
+function myFunction27() {
+    document.getElementById("myDIV27").style.backgroundColor = "white";
+}
+function mouse27() {
+    document.getElementById("myDIV27").style.backgroundColor = "wheat";
+}
+function myFunction28() {
+    document.getElementById("myDIV28").style.backgroundColor = "white";
+}
+function mouse28() {
+    document.getElementById("myDIV28").style.backgroundColor = "wheat";
+}
+
+/* Handle 建立使用者方法 */
+var create_error_func = function(error) {
+                  var errorCode     = error.code;
+                  var errorMessage  = error.message;
+                  alert("建立失敗:"+errorMessage);  
+        }
+var create_success_func = function(error) {
+                  alert("建立成功");  
+        }        
+        
+        
+/* Handle 使用者登入方法 */
+var login_error_func = function(error) {
+                  var errorCode     = error.code;
+                  var errorMessage  = error.message;
+                  alert("登入失敗:"+errorMessage);  
+        }
+var login_success_func = function(error) {
+                  alert("登入成功");  
+        }          
+        
+        $(document).ready(function(){
+            /* 建立使用者 */
+            $("#create_user").click(function(){
+                var email       = $('#create_email').val();
+                var password    = $('#create_password').val(); 
+                firebase.auth().createUserWithEmailAndPassword(email,password).then(create_success_func).catch(create_error_func);
+            });
+            
+            /* 登入使用者 */
+            $("#login_user").click(function(){
+                var email       = $('#login_email').val();
+                var password    = $('#login_password').val(); 
+                firebase.auth().signInWithEmailAndPassword(email, password).then(login_success_func).catch(login_error_func);
+            });            
+        });
