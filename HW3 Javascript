@@ -270,8 +270,6 @@ var create_success_func = function(error) {
                   alert("建立成功");  
         }        
         
-        
-/* Handle 使用者登入方法 */
 var login_error_func = function(error) {
                   var errorCode     = error.code;
                   var errorMessage  = error.message;
@@ -282,14 +280,11 @@ var login_success_func = function(error) {
         }          
         
         $(document).ready(function(){
-            /* 建立使用者 */
             $("#create_user").click(function(){
                 var email       = $('#create_email').val();
                 var password    = $('#create_password').val(); 
                 firebase.auth().createUserWithEmailAndPassword(email,password).then(create_success_func).catch(create_error_func);
             });
-            
-            /* 登入使用者 */
             $("#login_user").click(function(){
                 var email       = $('#login_email').val();
                 var password    = $('#login_password').val(); 
