@@ -113,6 +113,10 @@
   <h3 class="big center brown">參考資料來源</h3>
     <p class="center"><a href="https://g0v.news/社群新聞-公民科技提案踴躍-94-件投稿爭取g0v-獎助金-cabf05e0bafb#.jdmyl5nkj">Cheng Ting Yu的作品</a></p>
     <p class="center"><button type="button" onclick="scrollWin()">Back To Top</button></p>
+  <h3 class="center big brown">上傳檔案到Storage<h3>
+   <form class="center">
+      <input type="file" id="file" name="file">
+    </form>
   <h3 class="center big brown">建立使用者帳號</h3><p class="center">
     <input type="text" id="create_email"     placeholder="Email"/>
     <input type="text" id="create_password"  placeholder="密碼"/>
